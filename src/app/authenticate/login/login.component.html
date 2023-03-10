@@ -1,0 +1,21 @@
+<div class="flex justify-content-center">
+    <div class="card">
+        <div class="background">
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        <form>
+            <h3>Helping.Tools</h3>
+            <h5>Login</h5>
+    
+            <label for="username">Username</label>
+            <input type="text" placeholder="Email or Phone" id="username">
+    
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" id="password">
+    
+            <button pButton type="submit" (click)="handleLogin($event)">Log In</button>
+            <p style="cursor: pointer;" (click)="redirectToSignUp()">Create an Account?</p>
+        </form>
+    </div>
+</div>
